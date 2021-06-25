@@ -12,3 +12,5 @@
       * Ticket numbers usually consist of an even number of digits. A ticket number is considered lucky if the sum of the first half of the digits is equal to the sum of the second half.  Given a ticket number n, determine if it's lucky or not.
   * Sort by height
       * Some people are standing in a row in a park. There are trees between them which cannot be moved. Your task is to rearrange the people by their heights in a non-descending order without moving the trees. People can be very tall!
+  * Reverse in parentheses
+      * Write a function that reverses characters in (possibly nested) parentheses in the input string.  Input strings will always be well-formed with matching ()s.
