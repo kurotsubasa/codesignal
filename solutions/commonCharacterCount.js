@@ -1,3 +1,5 @@
+// Given two strings, find the number of common characters between them.
+
 function commonCharacterCount(s1, s2) {
     let commonChar = 0
 

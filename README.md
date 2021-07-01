@@ -22,3 +22,5 @@
       * Two arrays are called similar if one can be obtained from another by swapping at most one pair of elements in one of the arrays.  Given two arrays a and b, check whether they are similar.
   * Array change
       * You are given an array of integers. On each move you are allowed to increase exactly one of its element by one. Find the minimal number of moves required to obtain a strictly increasing sequence from the input.
+  * Palindrome rearranging
+      * Given a string, find out if its characters can be rearranged to form a palindrome.
