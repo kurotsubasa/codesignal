@@ -28,3 +28,5 @@
       * Call two arms equally strong if the heaviest weights they each are able to lift are equal. Call two people equally strong if their strongest arms are equally strong (the strongest arm can be both the right and the left), and so are their weakest arms. Given your and your friend's arms' lifting capabilities find out if you two are equally strong.
   * Array maximal adjacent difference
       * Given an array of integers, find the maximal absolute difference between any two of its adjacent elements.
+  * Is IPV4 Address
+      * An IP address is a numerical label assigned to each device (e.g., computer, printer) participating in a computer network that uses the Internet Protocol for communication. There are two versions of the Internet protocol, and thus two versions of addresses. One of them is the IPv4 address. Given a string, find out if it satisfies the IPv4 address naming rules.
