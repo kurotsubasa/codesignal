@@ -30,3 +30,5 @@
       * Given an array of integers, find the maximal absolute difference between any two of its adjacent elements.
   * Is IPV4 Address
       * An IP address is a numerical label assigned to each device (e.g., computer, printer) participating in a computer network that uses the Internet Protocol for communication. There are two versions of the Internet protocol, and thus two versions of addresses. One of them is the IPv4 address. Given a string, find out if it satisfies the IPv4 address naming rules.
+  * Avoid obstacles
+      * You are given an array of integers representing coordinates of obstacles situated on a straight line.  Assume that you are jumping from the point with coordinate 0 to the right. You are allowed only to make jumps of the same length represented by some integer.  Find the minimal length of the jump enough to avoid all the obstacles.
