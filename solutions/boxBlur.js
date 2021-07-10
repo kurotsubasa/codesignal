@@ -5,11 +5,11 @@
 // Return the blurred image as an integer, with the fractions rounded down.
 
 function boxBlur(image) {
-    for(let i = 0; i < image.length, i++) {
-        for(let j = 0; j < image[i].length; j++) {
-            if((i === 0) || (i === (image.length - 1))) {
-                break
-            }
+    const allPixels = []
+    for(let i = 1; i < image.length - 1, i++) {
+        const rowPixels = []
+        for(let j = 1; j < image[i].length - 1; j++) {
+            let pixelValue = image[i - 1][j - 1] + image[i - 1][j] + image[i - 1][j + 1] + image[i][j - 1] + image[i][j + 1] + image[i + 1][j - 1] + image[i + 1][j] + image[i + 1][j + 1]
         }
     }
 }
