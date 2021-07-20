@@ -20,6 +20,8 @@ function minesweeper(matrix) {
     const miner = (x, y) => {
         console.log(x)
         console.log(y)
+        // need to find way to check if position exists
+        // if it does exist, add 1 to value 
         ifExist(x-1, y-1)
         ifExist(x-1, y)
         ifExist(x-1, y+1)
