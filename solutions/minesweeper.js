@@ -12,6 +12,9 @@ function minesweeper(matrix) {
         if((x < 0) || y < 0) {
             return
         }
+        if((x > numMatrix[0].length) || (y > numMatrix.length)) {
+          return
+        }
         if(numMatrix[x][y]) {
             numMatrix[x][y] +=1
         }
@@ -21,7 +24,7 @@ function minesweeper(matrix) {
         console.log(x)
         console.log(y)
         // need to find way to check if position exists
-        // if it does exist, add 1 to value 
+        // if it does exist, add 1 to value
         ifExist(x-1, y-1)
         ifExist(x-1, y)
         ifExist(x-1, y+1)
