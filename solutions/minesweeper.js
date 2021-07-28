@@ -6,39 +6,13 @@ function minesweeper(matrix) {
         })
         return neoArr
     })
-    console.log(numMatrix)
 
-    const ifExist = (x, y) => {
-        if((x < 0) || y < 0) {
-            return
-        }
-        if((x > numMatrix[0].length) || (y > numMatrix.length)) {
-          return
-        }
-        if(numMatrix[x][y]) {
-            numMatrix[x][y] +=1
-        }
-    }
-
-    const miner = (x, y) => {
-        console.log(x)
-        console.log(y)
-        // need to find way to check if position exists
-        // if it does exist, add 1 to value
-        ifExist(x-1, y-1)
-        ifExist(x-1, y)
-        ifExist(x-1, y+1)
-        ifExist(x, y-1)
-        ifExist(x, y)
-        ifExist(x, y+1)
-        ifExist(x+1, y-1)
-        ifExist(x+1, y)
-        ifExist(x+1, y+1)
-    }
     for(let i = 0; i < matrix.length; i++) {
         for(let j = 0; j < matrix[i].length; j++) {
-            if(matrix[i][j] === true) {
-                miner(i, j)
+            if(matrix[i][j]) {
+                if(!((i-1) < 0) || (!((j-1) < 0))) {
+                    numMatrix[i-1][j-1] +=1
+                }
             }
         }
     }
