@@ -38,3 +38,5 @@
       * Given an array of integers, replace all the occurrences of elemToReplace with substitutionElem.
   * Even Digits Only
       * Check if all digits of the given integer are even.
+  * Variable Name
+      * Correct variable names consist only of English letters, digits and underscores and they can't start with a digit.  Check if the given string is a correct variable name.
