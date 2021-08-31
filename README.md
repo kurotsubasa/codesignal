@@ -40,3 +40,9 @@
       * Check if all digits of the given integer are even.
   * Variable Name
       * Correct variable names consist only of English letters, digits and underscores and they can't start with a digit.  Check if the given string is a correct variable name.
+  * Alphabetic Shift
+      * Given a string, your task is to replace each of its characters by the next one in the English alphabet; i.e. replace a with b, replace b with c, etc (z would be replaced by a).
+  * Chess Board Cell Color
+      * Given two cells on the standard chess board, determine whether they have the same color or not.
+  * Circle of Numbers
+      * Consider integer numbers from 0 to n - 1 written down along the circle in such a way that the distance between any two neighboring numbers is equal (note that 0 and n - 1 are neighboring, too).  Given n and firstNumber, find the number which is written in the radially opposite position to firstNumber.
