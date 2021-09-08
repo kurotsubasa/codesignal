@@ -46,3 +46,8 @@
       * Given two cells on the standard chess board, determine whether they have the same color or not.
   * Circle of Numbers
       * Consider integer numbers from 0 to n - 1 written down along the circle in such a way that the distance between any two neighboring numbers is equal (note that 0 and n - 1 are neighboring, too).  Given n and firstNumber, find the number which is written in the radially opposite position to firstNumber.
+  * Deposit Profit
+      * You have deposited a specific amount of money into your bank account. Each year your balance increases at the same growth rate. With the assumption that you don't make any additional deposits, find out how long it would take for your balance to pass a specific threshold.
+  * Absolute Values Sum Minimization
+      * Given a sorted array of integers a, your task is to determine which element of a is closest to all other values of a. In other words, find the element x in a, which minimizes the following sum
+  * 
