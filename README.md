@@ -50,4 +50,5 @@
       * You have deposited a specific amount of money into your bank account. Each year your balance increases at the same growth rate. With the assumption that you don't make any additional deposits, find out how long it would take for your balance to pass a specific threshold.
   * Absolute Values Sum Minimization
       * Given a sorted array of integers a, your task is to determine which element of a is closest to all other values of a. In other words, find the element x in a, which minimizes the following sum
-  * 
+  * Strings Rearrangement
+      * Given an array of equal-length strings, you'd like to know if it's possible to rearrange the order of the elements in such a way that each consecutive pair of strings differ by exactly one character. Return true if it's possible, and false if not.  Note: You're only rearranging the order of the strings, not the order of the letters within the strings!
